@@ -25,6 +25,7 @@ requirejs.config({
         'clickover': 'vendor/js/bootstrapx-clickover',
         'chosen': 'vendor/js/chosen.jquery',
         'fullcalendar': 'vendor/js/fullcalendar',
+        'history': 'vendor/js/jquery.history',
         'jquery': 'vendor/js/jquery-2.1.1',
         'lodash': 'vendor/js/lodash',
         'moment': 'vendor/js/moment',
@@ -59,6 +60,9 @@ requirejs.config({
         },
         'fullcalendar': {
             'deps': ['jquery', 'moment']
+        },
+        'history': {
+            'deps': ['jquery']
         }
     },
     'waitSeconds': 30

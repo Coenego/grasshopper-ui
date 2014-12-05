@@ -13,8 +13,7 @@
  * permissions and limitations under the License.
  */
 
-define(['gh.core', 'moment', 'clickover'], function(gh, moment) {
-
+define(['gh.core', 'moment', 'clickover', 'history'], function(gh, moment) {
 
     ////////////////
     //  CALENDAR  //

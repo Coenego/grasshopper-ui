@@ -13,7 +13,7 @@
  * permissions and limitations under the License.
  */
 
-define(['gh.core', 'bootstrap.calendar', 'bootstrap.listview', 'chosen'], function(gh) {
+define(['gh.core', 'bootstrap.calendar', 'bootstrap.listview', 'chosen', 'history'], function(gh) {
 
     // Dummy module JSON data to render the partial with
     var dummyModules = [
