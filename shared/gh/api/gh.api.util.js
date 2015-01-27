@@ -504,6 +504,7 @@ define(['exports', 'moment', 'sinon', 'bootstrap-notify'], function(exports, mom
                  'text!gh/partials/admin-modules.html',
                  'text!gh/partials/borrow-series-modal.html',
                  'text!gh/partials/calendar.html',
+                 'text!gh/partials/datepicker-popover.html',
                  'text!gh/partials/editable-parts.html',
                  'text!gh/partials/event.html',
                  'text!gh/partials/event-popover.html',
@@ -516,7 +517,7 @@ define(['exports', 'moment', 'sinon', 'bootstrap-notify'], function(exports, mom
                  'text!gh/partials/subheader-part.html',
                  'text!gh/partials/subheader-picker.html',
                  'text!gh/partials/subheader-pickers.html',
-                 'text!gh/partials/visibility-modal.html'], function(adminBatchEdit, adminBorrowSeriesModuleItem, adminModuleItem, adminModules, borrowSeriesModal, calendar, editableParts, eventItem, eventPopover, loginForm, loginModal, newModuleModal, newSeries, studentModuleItem, studentModules, subheaderPart, subheaderPicker, subheaderPickers, visibilityModal) {
+                 'text!gh/partials/visibility-modal.html'], function(adminBatchEdit, adminBorrowSeriesModuleItem, adminModuleItem, adminModules, borrowSeriesModal, calendar, datepickerPopover, editableParts, eventItem, eventPopover, loginForm, loginModal, newModuleModal, newSeries, studentModuleItem, studentModules, subheaderPart, subheaderPicker, subheaderPickers, visibilityModal) {
 
             // Declare all partials which makes them available in every template
             _.declarePartial('admin-batch-edit', adminBatchEdit);
@@ -525,6 +526,7 @@ define(['exports', 'moment', 'sinon', 'bootstrap-notify'], function(exports, mom
             _.declarePartial('admin-modules', adminModules);
             _.declarePartial('borrow-series-modal', borrowSeriesModal);
             _.declarePartial('calendar', calendar);
+            _.declarePartial('datepicker-popover', datepickerPopover);
             _.declarePartial('editable-parts', editableParts);
             _.declarePartial('event', eventItem);
             _.declarePartial('event-popover', eventPopover);

@@ -29,6 +29,7 @@ requirejs.config({
         'chosen': 'vendor/js/chosen.jquery',
         'fullcalendar': 'vendor/js/fullcalendar',
         'jquery-bbq': 'vendor/js/jquery-bbq',
+        'jquery-ui': 'vendor/js/jquery-ui',
         'jquery.jeditable': 'vendor/js/jquery.jeditable',
         'lodash': 'vendor/js/lodash',
         'moment': 'vendor/js/moment',
@@ -77,6 +78,9 @@ requirejs.config({
         },
         'fullcalendar': {
             'deps': ['jquery', 'moment']
+        },
+        'jquery-ui': {
+            'deps': ['jquery']
         }
     },
     'waitSeconds': 30
