@@ -1,4 +1,4 @@
-today/*!
+/*!
  * Copyright 2015 Digital Services, University of Cambridge Licensed
  * under the Educational Community License, Version 2.0 (the
  * "License"); you may not use this file except in compliance with the
@@ -22,7 +22,7 @@ body {
 /* COLLAPSE MODULES */
 /********************/
 
-.gh-collapsed #gh-main {
+.gh-collapsed main {
     margin-top: 0 !important;
 }
 
