@@ -43,6 +43,12 @@ define(['gh.core', 'gh.constants', 'gh.api.orgunit', 'gh.admin.visibility', 'cho
      * @private
      */
     var setUpModules = function(ev, data) {
+
+        console.log('setUpModules');
+        console.log(arguments);
+
+
+
         var partId = parseInt(data.selected, 10);
 
         // Push the selected part in the URL
