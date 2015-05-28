@@ -1,4 +1,5 @@
 .DS_Store
+.sass-cache
 bootstrap.log
 coverage/
 node_modules/
