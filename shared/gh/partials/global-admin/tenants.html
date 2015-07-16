@@ -2,13 +2,20 @@
     <h1>Tenants and Apps</h1>
 
     <h2>Create a new tenant</h2>
-    <form id="gh-tenants-create-tenant-form">
-        <div class="form-group">
-            <label for="gh-tenant-name" class="control-label">Tenant display name</label>
-            <input type="text" id="gh-tenant-name" class="form-control" placeholder="New tenant name"/>
+    <div class="panel-default gh-striped-container">
+        <div class="panel-body">
+            <div class="gh-striped-row row">
+                <form id="gh-tenants-create-tenant-form">
+                    <div class="col-sm-10">
+                        <input type="text" id="gh-tenant-name" class="form-control" placeholder="New tenant name"/>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-success">Create tenant</button>
+                    </div>
+                </form>
+            </div>
         </div>
-        <button type="submit" class="btn btn-default">Create tenant</button>
-    </form>
+    </div>
 
     <h2>Tenants in the system</h2>
     <% _.each(tenants, function(tenant) { %>
